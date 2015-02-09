@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8681301A89119C00483031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86812F1A89119C00483031 /* AppDelegate.swift */; };
+		AA8681331A89119D00483031 /* StanfordCalcDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8681311A89119D00483031 /* StanfordCalcDemo.xcdatamodeld */; };
+		AA8681351A89119D00483031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8681341A89119D00483031 /* ViewController.swift */; };
+		AA8681381A89119D00483031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8681361A89119D00483031 /* Main.storyboard */; };
+		AA86813A1A89119D00483031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8681391A89119D00483031 /* Images.xcassets */; };
+		AA86813D1A89119D00483031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86813B1A89119D00483031 /* LaunchScreen.xib */; };
+		AA8681491A89119D00483031 /* StanfordCalcDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8681481A89119D00483031 /* StanfordCalcDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8681431A89119D00483031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8681221A89119C00483031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8681291A89119C00483031;
+			remoteInfo = StanfordCalcDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA86812A1A89119C00483031 /* StanfordCalcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordCalcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA86812E1A89119C00483031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA86812F1A89119C00483031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8681321A89119D00483031 /* StanfordCalcDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StanfordCalcDemo.xcdatamodel; sourceTree = "<group>"; };
+		AA8681341A89119D00483031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8681371A89119D00483031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8681391A89119D00483031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA86813C1A89119D00483031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA8681421A89119D00483031 /* StanfordCalcDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordCalcDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8681471A89119D00483031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8681481A89119D00483031 /* StanfordCalcDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordCalcDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8681271A89119C00483031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA86813F1A89119D00483031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8681211A89119C00483031 = {
+			isa = PBXGroup;
+			children = (
+				AA86812C1A89119C00483031 /* StanfordCalcDemo */,
+				AA8681451A89119D00483031 /* StanfordCalcDemoTests */,
+				AA86812B1A89119C00483031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA86812B1A89119C00483031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA86812A1A89119C00483031 /* StanfordCalcDemo.app */,
+				AA8681421A89119D00483031 /* StanfordCalcDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA86812C1A89119C00483031 /* StanfordCalcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA86812F1A89119C00483031 /* AppDelegate.swift */,
+				AA8681341A89119D00483031 /* ViewController.swift */,
+				AA8681361A89119D00483031 /* Main.storyboard */,
+				AA8681391A89119D00483031 /* Images.xcassets */,
+				AA86813B1A89119D00483031 /* LaunchScreen.xib */,
+				AA8681311A89119D00483031 /* StanfordCalcDemo.xcdatamodeld */,
+				AA86812D1A89119C00483031 /* Supporting Files */,
+			);
+			path = StanfordCalcDemo;
+			sourceTree = "<group>";
+		};
+		AA86812D1A89119C00483031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA86812E1A89119C00483031 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA8681451A89119D00483031 /* StanfordCalcDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8681481A89119D00483031 /* StanfordCalcDemoTests.swift */,
+				AA8681461A89119D00483031 /* Supporting Files */,
+			);
+			path = StanfordCalcDemoTests;
+			sourceTree = "<group>";
+		};
+		AA8681461A89119D00483031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8681471A89119D00483031 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8681291A89119C00483031 /* StanfordCalcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA86814C1A89119D00483031 /* Build configuration list for PBXNativeTarget "StanfordCalcDemo" */;
+			buildPhases = (
+				AA8681261A89119C00483031 /* Sources */,
+				AA8681271A89119C00483031 /* Frameworks */,
+				AA8681281A89119C00483031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StanfordCalcDemo;
+			productName = StanfordCalcDemo;
+			productReference = AA86812A1A89119C00483031 /* StanfordCalcDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8681411A89119D00483031 /* StanfordCalcDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA86814F1A89119D00483031 /* Build configuration list for PBXNativeTarget "StanfordCalcDemoTests" */;
+			buildPhases = (
+				AA86813E1A89119D00483031 /* Sources */,
+				AA86813F1A89119D00483031 /* Frameworks */,
+				AA8681401A89119D00483031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8681441A89119D00483031 /* PBXTargetDependency */,
+			);
+			name = StanfordCalcDemoTests;
+			productName = StanfordCalcDemoTests;
+			productReference = AA8681421A89119D00483031 /* StanfordCalcDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8681221A89119C00483031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Christopher Wood";
+				TargetAttributes = {
+					AA8681291A89119C00483031 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AA8681411A89119D00483031 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AA8681291A89119C00483031;
+					};
+				};
+			};
+			buildConfigurationList = AA8681251A89119C00483031 /* Build configuration list for PBXProject "StanfordCalcDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8681211A89119C00483031;
+			productRefGroup = AA86812B1A89119C00483031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8681291A89119C00483031 /* StanfordCalcDemo */,
+				AA8681411A89119D00483031 /* StanfordCalcDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8681281A89119C00483031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8681381A89119D00483031 /* Main.storyboard in Resources */,
+				AA86813D1A89119D00483031 /* LaunchScreen.xib in Resources */,
+				AA86813A1A89119D00483031 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8681401A89119D00483031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8681261A89119C00483031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8681351A89119D00483031 /* ViewController.swift in Sources */,
+				AA8681331A89119D00483031 /* StanfordCalcDemo.xcdatamodeld in Sources */,
+				AA8681301A89119C00483031 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA86813E1A89119D00483031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8681491A89119D00483031 /* StanfordCalcDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8681441A89119D00483031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8681291A89119C00483031 /* StanfordCalcDemo */;
+			targetProxy = AA8681431A89119D00483031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA8681361A89119D00483031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8681371A89119D00483031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA86813B1A89119D00483031 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA86813C1A89119D00483031 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA86814A1A89119D00483031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA86814B1A89119D00483031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA86814D1A89119D00483031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StanfordCalcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA86814E1A89119D00483031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StanfordCalcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA8681501A89119D00483031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StanfordCalcDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordCalcDemo.app/StanfordCalcDemo";
+			};
+			name = Debug;
+		};
+		AA8681511A89119D00483031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StanfordCalcDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordCalcDemo.app/StanfordCalcDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8681251A89119C00483031 /* Build configuration list for PBXProject "StanfordCalcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA86814A1A89119D00483031 /* Debug */,
+				AA86814B1A89119D00483031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA86814C1A89119D00483031 /* Build configuration list for PBXNativeTarget "StanfordCalcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA86814D1A89119D00483031 /* Debug */,
+				AA86814E1A89119D00483031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA86814F1A89119D00483031 /* Build configuration list for PBXNativeTarget "StanfordCalcDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8681501A89119D00483031 /* Debug */,
+				AA8681511A89119D00483031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA8681311A89119D00483031 /* StanfordCalcDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA8681321A89119D00483031 /* StanfordCalcDemo.xcdatamodel */,
+			);
+			currentVersion = AA8681321A89119D00483031 /* StanfordCalcDemo.xcdatamodel */;
+			path = StanfordCalcDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA8681221A89119C00483031 /* Project object */;
+}
