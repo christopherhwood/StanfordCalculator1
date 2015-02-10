@@ -79,12 +79,8 @@
 		AA86812C1A89119C00483031 /* StanfordCalcDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AA86812F1A89119C00483031 /* AppDelegate.swift */,
 				AA8681341A89119D00483031 /* ViewController.swift */,
 				AA8681361A89119D00483031 /* Main.storyboard */,
-				AA8681391A89119D00483031 /* Images.xcassets */,
-				AA86813B1A89119D00483031 /* LaunchScreen.xib */,
-				AA8681311A89119D00483031 /* StanfordCalcDemo.xcdatamodeld */,
 				AA86812D1A89119C00483031 /* Supporting Files */,
 			);
 			path = StanfordCalcDemo;
@@ -93,6 +89,10 @@
 		AA86812D1A89119C00483031 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA86812F1A89119C00483031 /* AppDelegate.swift */,
+				AA8681391A89119D00483031 /* Images.xcassets */,
+				AA86813B1A89119D00483031 /* LaunchScreen.xib */,
+				AA8681311A89119D00483031 /* StanfordCalcDemo.xcdatamodeld */,
 				AA86812E1A89119C00483031 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -343,6 +343,7 @@
 				INFOPLIST_FILE = StanfordCalcDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,6 +354,7 @@
 				INFOPLIST_FILE = StanfordCalcDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
