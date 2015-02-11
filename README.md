@@ -1,8 +1,10 @@
 # StanfordCalculator1
-The answers for the first homework of the Stanford University iTunes iOS with Swift Course. 
+The answers for the first homework of the Stanford University iTunes iOS with Swift Course. Homework2 is still in progress. Go to branches/homework2 to find my work there.
 
 # This is the correct code for the first homework in the Stanford Univeristy iTunes Course for iOS 8. 
 # The code includes solutions for the required sections as well as all extra credit pieces.
+
+There is an error that I have not corrected yet in the homework1 code. displayValue should be of type Double?, not Double. It's second return should be nil instead of 0.
 
 import UIKit
 
