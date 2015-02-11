@@ -14,6 +14,7 @@
 		AA86813A1A89119D00483031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8681391A89119D00483031 /* Images.xcassets */; };
 		AA86813D1A89119D00483031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA86813B1A89119D00483031 /* LaunchScreen.xib */; };
 		AA8681491A89119D00483031 /* StanfordCalcDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8681481A89119D00483031 /* StanfordCalcDemoTests.swift */; };
+		AA8B5FAD1A89FA1600930F60 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B5FAC1A89FA1600930F60 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AA8681421A89119D00483031 /* StanfordCalcDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordCalcDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8681471A89119D00483031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8681481A89119D00483031 /* StanfordCalcDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordCalcDemoTests.swift; sourceTree = "<group>"; };
+		AA8B5FAC1A89FA1600930F60 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				AA8681341A89119D00483031 /* ViewController.swift */,
+				AA8B5FAC1A89FA1600930F60 /* CalculatorBrain.swift */,
 				AA8681361A89119D00483031 /* Main.storyboard */,
 				AA86812D1A89119C00483031 /* Supporting Files */,
 			);
@@ -217,6 +220,7 @@
 			files = (
 				AA8681351A89119D00483031 /* ViewController.swift in Sources */,
 				AA8681331A89119D00483031 /* StanfordCalcDemo.xcdatamodeld in Sources */,
+				AA8B5FAD1A89FA1600930F60 /* CalculatorBrain.swift in Sources */,
 				AA8681301A89119C00483031 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				AA86814E1A89119D00483031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA86814F1A89119D00483031 /* Build configuration list for PBXNativeTarget "StanfordCalcDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				AA8681511A89119D00483031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
